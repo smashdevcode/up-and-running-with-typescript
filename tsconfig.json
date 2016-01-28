@@ -1,0 +1,35 @@
+{
+    "version": "1.7.5",
+    "compilerOptions": {
+        "target": "es5",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "sourceMap": true,
+        "module": "system",
+        "experimentalDecorators": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./demos/computed-properties.ts",
+        "./demos/decorators-log.ts",
+        "./demos/decorators.ts",
+        "./demos/destructuring.ts",
+        "./demos/for-of.ts",
+        "./demos/let-const.ts",
+        "./demos/template-strings-with-tags.ts",
+        "./demos/template-strings.ts",
+        "./demos/union-types-type-guards.ts",
+        "./language-overview/main.ts",
+        "./modules-example/scripts/main.ts",
+        "./modules-example/scripts/my-class.ts",
+        "./modules-example/scripts/my-module.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
