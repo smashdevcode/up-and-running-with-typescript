@@ -1,0 +1,176 @@
+
+
+TypeScript Workshop
+
+
+Intro Slides
+
+Welcome
+Thanks for joining us
+We're excited that you're here
+
+Safe Zone
+Any question is fair game
+Including "What is TS?" or "Why do I care?"
+
+We Want You to Use TS
+Why? Because we believe you'll be more productive and write better code	
+
+Quick Poll
+Who is here to learn more about the language?
+Who is here to get help with setting up their environment?
+
+How Will This Work?
+For those that are interested in learning more about the language...
+	I'll be giving an introduction talk
+For those that are interested in getting help with setup...
+	Will make an attempt to organize into groups
+	Probably grouped by your choice of editor
+	Three areas are available...
+		Conference Room
+		War Room
+		SW Corner
+
+If You Still Need Help
+Let myself or Ken know before you go
+We'll do what we can to help you out
+
+
+Language Updates
+
+1.7
+
+async/await support in ES6 targets (Node v4+)
+Support for --target ES6 with --module
+this-typing
+ES7 exponentiation operator
+Improved checking for destructuring object literal
+Support for decorators when targeting ES3
+
+1.6
+
+JSX support
+Intersection types
+Local type declarations
+Class expressions
+Extending expressions
+abstract classes and methods
+Generic type aliases
+Stricter object literal assignment checks
+ES6 generators
+Experimental support for async functions
+Adjustments in module resolution logic
+Merging ambient class and interface declaration
+User-defined type guard functions
+exclude property support in tsconfig.json
+
+1.5
+
+ES6 Modules
+Destructuring in declarations and assignments
+namespace keyword
+let and const support
+for..of support
+Decorators
+Computed properties
+Support for UMD and System module output
+Unicode codepoint escapes in strings
+Tagged template strings in ES3/ES5
+AMD-dependency optional names
+Project support through tsconfig.json
+
+
+Introduction Ideas
+
+1) Walk through setting up simple web project
+2) Demo top 10 TS features
+3) Show simple Gulp build???
+4) Show simple Node.js project???
+5) Show module support???
+
+
+Use Node to demo language features???
+
+Review language updates
+
+	Setup simple web project
+		Using VS Code???
+			What does it take to compile a project???
+
+	Setup simple Node project
+		Using VS Code???
+			What does it take to compile a project???
+
+Split the group into two???
+	Those who want a walkthrough of the language
+	Those who want help with their toolchain
+
+Setup simple projects to use as examples
+	Vanilla JS example
+	AngularJS example
+	Node.js example
+
+Questions
+	Who is using Broccoli???
+		http://broccolijs.com/
+
+Resources
+	http://www.justinmccandless.com/blog/A+Tutorial+for+Getting+Started+with+Gulp
+	http://survivejs.com/webpack_react/webpack/
+
+Steps
+
+npm init --yes
+npm install --save-dev angular
+npm install -g typescript
+npm install --save-dev typescript
+npm install -g gulp
+npm install --save-dev gulp
+
+
+TODO
+
+Setup AngularJS project
+	Use Gulp and Grunt builds
+
+Setup Node.js project
+	Use ??? for builds
+
+Setup React project
+	Use Webpack for builds???
+
+Editors
+	Sublime Text
+	Atom
+	WebStorm
+	Visual Studio
+	Visual Studio Code
+
+Build Tools
+	Gulp
+	Grunt
+
+Frameworks/Runtimes
+	AngularJS
+	Node.js
+
+Outliers
+	React and Webpack
+
+
+JS Build Tools
+
+Webpack
+
+Webpack Compared
+http://survivejs.com/webpack_react/webpack_compared/
+
+Browserify vs Webpack
+https://medium.com/@housecor/browserify-vs-webpack-b3d7ca08a0a9#.43rnv0aw9
+
+Choosing a JS Build Tool
+http://jamesknelson.com/which-build-system-should-i-use-for-my-javascript-app/
+
+Grunt vs gulp vs Webpack
+http://stackshare.io/stackups/gulp-vs-grunt-vs-webpack
+

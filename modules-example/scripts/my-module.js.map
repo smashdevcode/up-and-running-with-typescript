@@ -1,0 +1,1 @@
+{"version":3,"file":"my-module.js","sourceRoot":"","sources":["my-module.ts"],"names":["sayHello","sayHelloAgain"],"mappings":"AACA,8BAA8B;AAC9B,8DAA8D;AAC9D,gFAAgF;;IAEhF;QACIA,OAAOA,CAACA,GAAGA,CAACA,cAAcA,CAACA,CAACA;IAChCA,CAACA;IAFD,+BAEC,CAAA;IAED;QACIC,OAAOA,CAACA,GAAGA,CAACA,cAAcA,CAACA,CAACA;IAChCA,CAACA;IAFD,yCAEC,CAAA"}
